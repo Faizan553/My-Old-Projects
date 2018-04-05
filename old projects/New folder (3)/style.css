@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+h1{
+    color:  gold;
+}
+div{
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+select{
+    background-color: gray;
+    border-radius: 20%;
+    
+
+}
+select:hover{
+    border: solid 3px gold;
+}

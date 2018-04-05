@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Education</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0" />
+	<link rel="stylesheet" media="all" href="style.css" type="text/css">
+</head>
+
+<body>
+	<!--
+	Author Details
+	==============
+
+	Author: Mobifreaks
+	Author URL: http://mobifreaks.com
+
+	Attribution( is must on every page, where this work is used. should be visible to naked eye and Search engine bot[ means should not use noindex, nofollow relations ]):
+
+	// a healty attribution looks like following
+	<a href="http://mobifreaks.com" target="_blank">Design by Mobifreaks</a>
+
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+
+	if any regards of infringement, may lead to lawsuit under Digital Millennium Copyright Act (DMCA)
+
+	For Attribution removal request. please consider contacting us through http://mobifreaks.com/feedback/ or mail us at support[at]mobifreaks.com
+ -->
+	<div class="wrap">
+		<header>
+			<div class="logo">
+				<a href="index.html">
+					<h1>&nbsp&nbspEdu&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<span>Education Network</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h1>
+				</a>
+			</div>
+			<div class="options">
+				<ul>
+					<li>Search</li>
+					<li>Menu</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="search-box">
+				<form action="#">
+					<input type="text" placeholder="Search gallery" />
+					<input type="submit" value="Go" />
+				</form>
+				<div class="clear"></div>
+			</div>
+			<nav class="vertical menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="single.html">SSC PART 1</a></li>
+					<li><a href="basic_markup.html">SSC PART 2</a></li>
+					<li><a href="contact.html">Complaint Form</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<div class="content">
+			<article class="underline">
+				<div class="post-preview">
+					<a href="basic_markup.html"><img src="images/shah.jpg" alt="title of the image" /></a>
+				</div>
+				<div class="post-content">
+					<h2><a href="basic_markup.html">HSC Part 1 Guess Paper Available Here</a></h2>
+					<p>Note: All published material contains an informatory data which is only gathered for educational purpose. These guesses
+						are prepared after detailed analysis of past five years exams. Our entire team and/or publishers are not responsible
+						in case of variation in assumed results and outcomes. However the purposes of attempted efforts are to provide accurate
+						and effective knowledge to the readers, in any case our entire team and/or publishers will not be responsible for the
+						accuracy or misusage of all published material. All published material contains an informatory data which is only gathered for educational purpose. These guesses
+						are prepared after detailed analysis of past five years exams. Our entire team and/or publishers are not responsible
+						in case of variation in assumed results and outcomes. However the purposes of attempted efforts are to provide accurate
+						and effective knowledge to the readers, in any case our entire team and/or publishers will not be responsible for the
+						accuracy or misusage of all published material.</p>
+					<div class="date"><span>21 Jan 2017</span></div>
+				</div>
+				<div class="clear"></div>
+			</article>
+			<article class="underline">
+				<div class="post-preview">
+					<a href="basic_markup.html"><img src="images/shah.jpg" alt="title of the image" /></a>
+				</div>
+				<div class="post-content">
+					<h2><a href="basic_markup.html">Adamjee Coaching Guess Papers 2016 for Class 9th - Science Group</a></h2>
+					<div class="date"><span>21 Jan 2017</span></div>
+				</div>
+				<div class="clear"></div>
+			</article>
+			<article class="underline">
+				<a href="basic_markup.html"><img src="images/adam.png" alt="title of the image" /></a>
+				<h2><a href="basic_markup.html">Matric Guess Papers 2016</a></h2>
+				<p>I wish! It's a nickel. Good man. Nixon's pro-war and pro-family. Hey, what kinda party is this? There's no booze and
+					only one hooker.</p>
+				<div class="date"><span>20 mar 2012</span></div>
+			</article>
+			
+				<ul>
+					<li><span class="current">1</span></li>
+					<li><a href="#2" class="inactive">2</a></li>
+					<li><a href="#" class="inactive">3</a></li>
+					<li><a href="#">&#62;</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<p class="right">&copy; Ghous Ali Shah <a href="https://www.facebook.com/profile.php?id=100006951518666" target="_blank">Facebook</a></p>
+		</footer>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+   window.addEventListener("load",function() {
+	  // Set a timeout...
+	  setTimeout(function(){
+	    // Hide the address bar!
+	    window.scrollTo(0, 1);
+	  }, 0);
+	});
+   $('.search-box,.menu' ).hide();   
+   $('.options li:first-child').click(function(){	
+   		$(this).toggleClass('active'); 	
+   		$('.search-box').toggle();        			
+   		$('.menu').hide();  		
+   		$('.options li:last-child').removeClass('active'); 
+   });
+   $('.options li:last-child').click(function(){
+   		$(this).toggleClass('active');      			
+   		$('.menu').toggle();  		
+   		$('.search-box').hide(); 
+   		$('.options li:first-child').removeClass('active'); 		
+   });
+   $('.content').click(function(){
+   		$('.search-box,.menu' ).hide();   
+   		$('.options li:last-child, .options li:first-child').removeClass('active');
+   });
+</script>
+	<!--
+	Author Details
+	==============
+
+	Author: Mobifreaks
+	Author URL: http://mobifreaks.com
+
+	Attribution( is must on every page, where this work is used. should be visible to naked eye and Search engine bot[ means should not use noindex, nofollow relations ]):
+
+	// a healty attribution looks like following
+	<a href="http://mobifreaks.com" target="_blank">Design by Mobifreaks</a>
+
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+
+	if any regards of infringement, may lead to lawsuit under Digital Millennium Copyright Act (DMCA)
+
+	For Attribution removal request. please consider contacting us through http://mobifreaks.com/feedback/ or mail us at support[at]mobifreaks.com
+ -->
+</body>
+
+</html>

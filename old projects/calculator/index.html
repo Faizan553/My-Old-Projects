@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+        body {
+            text-align: center;
+            background-color: #d3d3d3;
+        }
+        button{
+            padding: 20px;
+            font-size: 20px;
+            border: 1px solid black;
+            width: 85px;
+            height: 85px;
+            text-align: center;
+            font-weight: bold;
+        }
+        input{
+            width: 35%;
+            font-size: 50px;
+        }
+        #two{
+            font-size: 50px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <h2>Ghous Ali Shah</h2>
+    <h3>4480</h3>
+    <h4>(Orange)</h4>
+    <div id="Calculator" title="Dymamic Calculator">
+        <input type="text" id="result" autofocus="autofocus" class="screen" onfocus="this.style.color='blue';" />
+        <br/>
+        <br/>
+        <button onclick="run7 ()" class="button">7</button>
+        <button onclick="run8 ()" class="button">8</button>
+        <button onclick="run9 ()" class="button">9</button>
+        <button onclick="runBack ()" class="button">D</button>
+        <button onclick="runClear ()" class="button">C</button>
+
+        <br/>
+
+        <button onclick="run4 ()" class="button">4</button>
+        <button onclick="run5 ()" class="button">5</button>
+        <button onclick="run6 ()" class="button">6</button>
+        <button onclick="runMultiply ()" class="button">&times;</button>
+        <button onclick="runDivide ()" class="button">&divide;</button>
+
+        <br/>
+
+        <button onclick="run1 ()" class="button">1</button>
+        <button onclick="run2 ()" class="button">2</button>
+        <button onclick="run3 ()" class="button">3</button>
+        <button onclick="runPlus ()" class="button">+</button>
+        <button onclick="runMinus ()" class="button">-</button>
+
+        <br/>
+
+        <button onclick="run0 ()" class="button">0</button>
+        <button onclick="runPoint ()" class="button">.</button>
+        <button onclick="runSquareValue ()" class="button">&sup2;</button>
+
+        <button onclick="runSquareRoot ()" class="button">&radic;</button>
+        <button onclick="runPercentage ()" class="button">%</button>
+
+        <br/>
+
+        <button onclick="calculate ()" id="two" class="button" style="width:35%">=</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
